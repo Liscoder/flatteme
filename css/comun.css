@@ -35,3 +35,31 @@ nav a{
 	padding-top: 1%;
 }
 
+/*footer*/
+footer .two li{
+	list-style: none;
+	display:inline-block;
+}
+footer li{
+	list-style:none;
+}
+footer nav{
+	background-color:transparent;
+}
+footer .contenido{
+	background-color: #34495e;
+	padding:4% 0;
+	color:white;
+}
+footer .two{
+	background-color:#2c3e50;
+	padding:1% 0;
+	color:white;
+}
+footer .input-group-addon{
+	background-color:#d9534f;
+}
+footer .distancia span{
+	font-size: 10px;
+	padding-top:4%;
+}

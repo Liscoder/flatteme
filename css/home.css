@@ -27,6 +27,9 @@
 .f-right{
 float:right;
 }
+.text-center{
+text-align: center;
+}
 nav{
 	background-color: #34495e;
 	margin:0;
@@ -55,8 +58,6 @@ nav a{
 	padding-top: 1%;
 }
 
-
-
 .carousel-inner{
 	height:528px;
 }
@@ -64,7 +65,56 @@ nav a{
 	width:100%;
 	height:100%;
 }
-
-.carousel-caption{
-position:relative;
+.text-left{
+	text-align: left;
 }
+
+/*social*/
+.social{
+background-color:#2ecc71;
+margin:0;
+padding:3% 0;
+text-align: center;
+position:relative;
+color:white;
+}
+
+.social .medio{
+	background-color: #1c7a44;
+	border-radius:50%;
+	height:60px;
+	position:absolute;
+	top:60px;
+	width:100%;
+	padding-top:50%;
+	margin-left:3px;
+}
+.social .col-lg-10{
+	padding-left:25px;
+}
+
+/*page*/
+.page{
+	background-color:#f5f5f5;
+	padding:6% 0;
+}
+
+.page nav{
+	background-color:transparent;
+}
+.pagination li a, .pagination li a{
+	background-color:#e74c3c;
+	border:1px solid #d9534f;
+
+}
+/*Lorem*/
+.lorem{
+	background-color:#e74c3c;
+	padding:4% 0;
+	color:white;
+}
+.lorem .col-lg-6{
+	border-left:4px solid white;
+	margin-bottom: 2%;
+}
+
