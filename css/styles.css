@@ -285,6 +285,9 @@ a.reply {
 .two-images{
 	margin-bottom: 15px;
 }
+.blog-article{
+	float:left;
+}
 /* CONTACT US */
 .contact-us textarea {
 	height: 181px;
