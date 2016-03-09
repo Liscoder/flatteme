@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 .one-portafolio{
 	background-color:#2ecc71;
 	padding:5% 0;
@@ -42,3 +43,19 @@ background: url('../images/portfolio/thumb/item5.jpg') no-repeat;
 background: url('../images/portfolio/thumb/item6.jpg') no-repeat;
 }
 
+@media screen and (max-width: 320px){
+
+.folder p,.second p{
+	padding:5% 31% 1% 1%;
+}
+.folder .col-lg-4{
+	margin:8px;
+}
+}
+@media screen and (max-width: 480px){
+.folder p, .second p{
+	padding:5% 33% 1% 1%;
+}
+
+
+}
