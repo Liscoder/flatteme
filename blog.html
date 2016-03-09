@@ -7,24 +7,270 @@
     <meta name="author" content="">
     <title>Blog | Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-  </head><!--/head-->
+  </head>
+  <!--/head-->
   <body>
-    <!-- Inserte código aqui -->
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    <!-- NAV BAR -->
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed f-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="flattheme.html">
+              <span class="glyphicon glyphicon-heart"></span> Flat Theme
+            </a>
+          </div>
+          <div id="navbar" class="collapse in navbar-collapse" aria-expanded="true">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portafolio</a></li>
+              <li><a href="blog.html" class="active">Blog</a></li>
+              <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- BLOG CONTENT -->
+    <section id="title-page" class="title-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <h2>About Us</h2>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+          </div>
+          <div class="col-md-3">
+            <ol class="breadcrumb">
+              <li><a href="#">Home</a></li>
+              <li class="active">About Us</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="two-blog main-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 description">
+            <div>
+              <img src="images/blog/blog1.jpg" alt="">
+            </div>
+            <div class="content">
+              <h3>Duis sed odio sit amet nibh vulputate cursus</h3>
+              <span class="blog-details">
+                <i class="fa fa-user"></i> John
+                <i class="fa fa-folder"></i> Bootstrap
+                <i class="fa fa-calendar"></i> Sept 16th, 2012
+                <i class="fa fa-comment"></i> 3 Comments
+              </span>
+              <p>Proin graida nibh vel velit auctor aliquet.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagitis sem nibh id elit.Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.Morbi accumsan ipsum velit.Nam nc tellus a odio tincidunt auctor a omare odio.Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+              <ul class="pager">
+                <li class="next"><a href="#"> Read More<span aria-hidden="true">&rarr;</span></a></li>
+              </ul>
+            </div>
+            <div><img src="images/blog/blog2.jpg" alt=""></div>
+            <div class="content">
+              <h3>Duis sed odio sit amet nibh vulputate cursus</h3>
+              <span class="blog-details">
+                <i class="fa fa-user"></i> John
+                <i class="fa fa-folder"></i> Bootstrap
+                <i class="fa fa-calendar"></i> Sept 16th, 2012
+                <i class="fa fa-comment"></i> 3 Comments
+              </span>
+              <p>Proin graida nibh vel velit auctor aliquet.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagitis sem nibh id elit.Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.Morbi accumsan ipsum velit.Nam nc tellus a odio tincidunt auctor a omare odio.Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+              <ul class="pager">
+                <li class="next"><a href="#"> Read More<span aria-hidden="true">&rarr;</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 blog-aside">
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only">Search box</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <a class="input-group-addon" href="#"><i class="fa fa-search"></i></a>
+                </div>
+              </div>
+            </form>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/ads/ad1.png">
+              </div>
+              <div class="col-md-6">
+                <img src="images/ads/ad2.png">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/ads/ad3.png">
+              </div>
+              <div class="col-md-6">
+                <img src="images/ads/ad4.png">
+              </div>
+            </div>
+            <h3>Blog Categories</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <ul type="none">
+                  <li><i class="fa fa-chevron-right"></i> Development</li>
+                  <li><i class="fa fa-chevron-right"></i> Design</li>
+                  <li><i class="fa fa-chevron-right"></i> Updates</li>
+                  <li><i class="fa fa-chevron-right"></i> Tutorial</li>
+                  <li><i class="fa fa-chevron-right"></i> News</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul type="none">
+                  <li><i class="fa fa-chevron-right"></i> Joomla</li>
+                  <li><i class="fa fa-chevron-right"></i> Wordpress</li>
+                  <li><i class="fa fa-chevron-right"></i> Drupal</li>
+                  <li><i class="fa fa-chevron-right"></i> Magento</li>
+                  <li><i class="fa fa-chevron-right"></i> Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+            <h3>Tag Cloud</h3>
+            <div class="tag-list">
+              <span class="label label-primary">CSS3</span>
+              <span class="label label-primary">HTML5</span>
+              <span class="label label-primary">WordPress</span>
+              <span class="label label-primary">Joomla</span>
+              <span class="label label-primary">Drupal</span>
+              <span class="label label-primary">Bootstrap</span>
+              <span class="label label-primary">jQuery</span>
+              <span class="label label-primary">Tutorial</span>
+              <span class="label label-primary">Update</span>
+            </div>
+            <h3>Facebook Fanpage</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <section class="contenido">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h4>About</h4>
+              <p>Pelientesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+              <br>
+              <p>Peliententesque habitant morbi tristique senectus.</p>
+            </div>
+            <div class="col-lg-3">
+              <h4>Company</h4>
+              <ul>
+                <li><i class="fa fa-chevron-right"></i> Company Overview </li>
+                <li><i class="fa fa-chevron-right"></i> Meet The Team </li>
+                <li><i class="fa fa-chevron-right"></i> Our Awesome Partners </li>
+                <li><i class="fa fa-chevron-right"></i> Our Servicies </li>
+                <li><i class="fa fa-chevron-right"></i> Frecuency Asked QUestions</li>
+                <li><i class="fa fa-chevron-right"></i> Contact Us</li>
+                <li><i class="fa fa-chevron-right"></i> Privacy Police</li>
+                <li><i class="fa fa-chevron-right"></i> Terms of Use</li>
+                <li><i class="fa fa-chevron-right"></i> Copyright</li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h4>Latest Blog</h4>
+              <ul class="media-list">
+                <li class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="pull-left" src="images/blog/thumb1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>Pellentesque habitant morbi tristique senectus</p>
+                    <small>Posted 17 Aug 2013</small>
+                  </div>
+                </li>
+                <li class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="pull-left" src="images/blog/thumb1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>Pellentesque habitant morbi tristique senectus</p>
+                    <small>Posted 17 Aug 2013</small>
+                  </div>
+                </li>
+                <li class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="pull-left" src="images/blog/thumb1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>Pellentesque habitant morbi tristique senectus</p>
+                    <small>Posted 17 Aug 2013</small>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <address>
+                <h4>Address</h4>
+                <strong>Twitter Inc.</strong><br>
+                795 Folsom Ave, Suite 600<br>
+                San Francisco, Ca 94107<br>
+              <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+            <address>
+              <h4>Newsletter</h4>
+            </address>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter your email" aria-describedby="basic-addon2">
+              <span class="input-group-addon" id="basic-addon2">Go!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="two">
+      <div class="container">
+        <div class="row">
+          <div class="f-left">
+            <i class="fa fa-copyright"> </i> 2013 ShapeBootstrap. All Rights Reserved.
+          </div>
+          <nav class="f-right">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html"> About us</a></li>
+              <li><a href="contact-us"> Contact us</a></li>
+              <li><a href="#"> <i class="fa fa-chevron-up"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!--SCRIPT-->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>

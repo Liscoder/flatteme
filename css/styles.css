@@ -1,0 +1,244 @@
+/* INDEX */
+.carousel-inner {
+	height:528px;
+}
+.carousel-inner img {
+	width:100%;
+	height:100%;
+}
+.social {
+	background-color:#2ecc71;
+	margin:0;
+	padding:3% 0;
+	text-align: center;
+	position:relative;
+	color:white;
+}
+.social .medio {
+	background-color: #1c7a44;
+	border-radius:50%;
+	height:60px;
+	position:absolute;
+	top:60px;
+	width:100%;
+	padding-top:50%;
+	margin-left:3px;
+}
+.social .col-lg-10 {
+	padding-left: 25px;
+}
+.page {
+	background-color:#f5f5f5;
+	padding:6% 0;
+}
+.page nav {
+	background-color:transparent;
+}
+.pagination li a, .pagination li a {
+	background-color:#e74c3c;
+	border:1px solid #d9534f;
+}
+.lorem {
+	background-color: #e74c3c;
+	padding: 4% 0;
+	color: white;
+}
+.lorem .col-lg-6 {
+	border-left: 4px solid white;
+	margin-bottom: 2%;
+}
+
+
+/* ABOUT US */
+
+
+
+/* SERVICES */
+
+
+
+/* PORTFOLIO */
+.one-portafolio{
+	background-color:#2ecc71;
+	padding:5% 0;
+	color:white;
+}
+.image{
+	height:300px;
+	background-color:white;
+	border:10px solid white;
+
+}
+.folder{
+	padding:5% 0;
+	background-color: #f5f5f5;
+}
+.second{
+	padding-top:3%;
+}
+.folder p,.second p{
+	position:absolute;
+	bottom:0;
+	background-color:white;
+	padding:5% 50% 1% 1%;
+}
+.folder .one{
+	background: url('../images/portfolio/thumb/item1.jpg') no-repeat;
+}
+.folder .two{
+	background: url('../images/portfolio/thumb/item2.jpg') no-repeat;
+}
+.folder .three{
+	background: url('../images/portfolio/thumb/item3.jpg') no-repeat;
+}
+.folder .second .one{
+	background: url('../images/portfolio/thumb/item4.jpg') no-repeat;
+}
+.folder .second .two{
+	background: url('../images/portfolio/thumb/item5.jpg') no-repeat;
+}
+.folder .second .three{
+	background: url('../images/portfolio/thumb/item6.jpg') no-repeat;
+}
+
+
+/* BLOG */
+.one-blog {
+	background-color:#2ecc71;
+	padding:5% 0;
+	color:white;
+}
+.pager{
+	float:left;
+}
+.two-blog{
+	padding:5% 0;
+	background-color: #f5f5f5;
+}
+.description h3{
+	padding:0;
+}
+.content{
+	background-color: white;
+	padding:1px 18px 10%;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	margin-bottom: 3%;
+	color:#374c60;
+}
+.content .blog-details {
+	color: #999999;
+	padding: 3% 0 2%;
+}
+.content p{
+	padding-top: 4%;
+}
+.description img{
+	width:100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.photo .input-group{
+	margin-bottom:2%;
+}
+.imagen{
+	background-size: cover;
+	height:150px;
+	border-radius:14px;
+	padding:4px;
+	width:160px;
+}
+.imagenes {
+    margin-bottom: 160px;
+    margin-top:8%;
+}
+.photo .one{
+	background:url('../images/ads/ad1.png') no-repeat;	
+}
+.photo .two{
+	background:url('../images/ads/ad2.png') no-repeat;
+}
+.photo .three{
+	background:url('../images/ads/ad3.png') no-repeat;
+}
+.photo .four{
+	background:url('../images/ads/ad4.png') no-repeat;
+}
+.input-group-addon{
+	background-color:#d9534f;
+	color:white;
+}
+.categoria ul{
+	list-style:none;
+	color:#374c60;
+}
+.categoria{
+	padding-top:45%;
+}
+.cloud{
+	padding:30% 0 2%;
+}
+.btn-primary{
+	margin-bottom: 4px;
+	font-size: 8px;
+}
+
+/* BLOG ITEM */
+/*.blog-article --> ACTIVAR EL DIV DE BLOGARTICLE APARTE {
+	background-color: white;
+	padding: 0 15px;
+}*/
+.blog-item ul {
+	padding: 0;
+}
+.comment-user {
+	background-color: #D8D8D8;
+}
+.comment-user img, .blog-item .media img {
+	width: auto;
+}
+.comment-user .media-body {
+	padding-left: 10px;
+}
+.blog-aside img {
+	border-radius: 14px;
+}
+.blog-aside .row {
+	margin-top: 8%;
+}
+.blog-aside .input-group-addon {
+    background-color: #d9534f;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: white;
+}
+
+/* CONTACT US */
+.contact-us textarea {
+	height: 181px;
+	max-height: 181px;
+	width: 100%;
+	max-width: 100%;
+}
+.services .media {
+	display: flex;
+}
+.services .media .global-media {
+	background-color: gray;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	color: white;
+	font-size: 2.8em;
+	padding: 15px;
+	height: 70px;
+	text-align: center;
+	width: 70px;
+	margin-right: 15px;
+}
+.services blockquote cite:before {
+	content: '\2014 \00A0';
+}
+
+
+
