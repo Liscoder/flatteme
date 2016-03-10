@@ -1,9 +1,4 @@
 /* MEDIA QUERIES */
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
-
-/* MEDIA QUERIES */
-
 @media screen and (max-width: 768px){
 /*home*/
 .social .medio {
@@ -22,27 +17,9 @@
 .page .col-lg-3{
 	margin-bottom:50px; 
 }
-
-/*about us*/
-
-
-/*services*/
-
-
-/*portafolio*/
-
-
-/*blog*/
-
-
-/*contact*/
-
-
-
-
 }
-@media screen and (max-width: 640px){
 
+@media screen and (max-width: 640px){
 /*home*/
 .social .medio {
     height: 109px;
@@ -60,13 +37,6 @@
 .page .col-lg-3{
 	margin-bottom:40px; 
 }
-
-/*about us*/
-
-
-/*services*/
-
-
 /*portafolio*/
 .folder p, .second p{
 	padding:5% 1% 2% 3%;
@@ -85,13 +55,10 @@
 	height:250px;
 	margin-bottom:60px;
 }
-
 /*blog*/
-
-
-/*contact*/
-
-
+.blog-article .form-group {
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 480px){
@@ -111,14 +78,6 @@
 .page .col-lg-3{
 	margin-bottom:30px; 
 }
-
-/*about us*/
-
-
-/*services*/
-
-
-
 /*portafolio*/
 .folder p, .second p{
 	padding:5% 55% 1% 1%;
@@ -137,15 +96,14 @@
 	height:250px;
 	margin-bottom:60px;
 }
-
-
 /*blog*/
 .content{
 	padding:1px 18px 18%;
 }
+.blog-article .form-group {
+    width: 100%;
+}
 /*contact*/
-
-
 }
 
 @media screen and (max-width: 320px){
@@ -153,8 +111,6 @@
 .social i{
 	padding-top:5px;
 }
-
-
 .carousel-inner{
 	height:350px;
 }
@@ -164,58 +120,20 @@
 .page .col-lg-3{
 	margin-bottom:20px; 
 }
-
-
-
 /*about us*/
-
-
-/*services*/
-
-
-
+.team-photos .col-xs-6 img{
+		width: 80%;
+		height: 80%;
+	}
 /*portafolio*/
 .folder .col-lg-4{
 	margin:8px;
 }
 .folder p, .second p {
     padding: 5% 29% 1% 1%;
-
-
 /*blog*/
 .content{
 	padding:1px 18px 23%;
 }
-
 /*contact*/
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* KAREN */
-@media screen and (max-width: 768px){
-}
-@media screen and (max-width: 640px){
-}
-@media screen and (max-width: 480px){
-}
-@media screen and (max-width: 320px){
-	.team-photos .col-xs-6 img{
-		width: 80%;
-		height: 80%;
-	}
 }
