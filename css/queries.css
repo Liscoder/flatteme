@@ -192,3 +192,30 @@
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* KAREN */
+@media screen and (max-width: 768px){
+}
+@media screen and (max-width: 640px){
+}
+@media screen and (max-width: 480px){
+}
+@media screen and (max-width: 320px){
+	.team-photos .col-xs-6 img{
+		width: 80%;
+		height: 80%;
+	}
+}
